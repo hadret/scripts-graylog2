@@ -11,6 +11,11 @@ graylog2-web. Please note, that these scripts assume couple of things:
 (if this is not the case, just remove _Requires_ section from graylog2-server
 script)
 
+Please notice that there are no guarantees that hamsters will not eat your
+server (nor that those scripts will work for you).
+
+**Pull requests are more than welcome! (:**
+
 
 Installation
 ===
@@ -31,6 +36,6 @@ Installation
 Authors
 ===
 
-Filip "Hadret" Chabik <hadret@gmail.com>
+Filip "Hadret" Chabik <hadret@gmail.com> @hadret
 
 _(Remember to add yourself when pull requesting)._ 
