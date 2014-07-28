@@ -22,13 +22,13 @@ Installation
 
 **graylog2-server:**
 
-    sudo wget -O /lib/systemd/system/graylog2-server.service ...
+    sudo wget -O /lib/systemd/system/graylog2-server.service http://stash.chabik.com:7990/projects/SCR/repos/graylog2/browse/graylog2-server.service?raw
     sudo systemctl enable graylog2-server
     sudo systemctl start graylog2-server
 
 **graylog2-web:**
 
-    sudo wget -O /lib/systemd/system/graylog2-web.service ...
+    sudo wget -O /lib/systemd/system/graylog2-web.service http://stash.chabik.com:7990/projects/SCR/repos/graylog2/browse/graylog2-web.service?raw
     sudo systemctl enable graylog2-web
     sudo systemctl start graylog2-web
 
