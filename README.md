@@ -10,6 +10,9 @@ graylog2-web. Please note, that these scripts assume couple of things:
 * graylog2-server is running on the same machine as Elasticsearch and MongoDB
 (if this is not the case, just remove _Requires_ section from graylog2-server
 script)
+* scripts are binded to network.target and will fail to start when it's not 
+present (both during boot time and when for some reason network.target will go
+down)
 
 Please notice that there are no guarantees that hamsters will not eat your
 server (nor that those scripts will work for you).
