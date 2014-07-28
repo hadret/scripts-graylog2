@@ -8,7 +8,7 @@ graylog2-web. Please note, that these scripts assume couple of things:
 * graylog2-server is located in /opt/graylog2-server
 * graylog2-web is located in /opt/graylog2-web
 * graylog2-server is running on the same machine as Elasticsearch and MongoDB
-(if this is not the case, just remove __Requires__ section from graylog2-server
+(if this is not the case, just remove _Requires_ section from graylog2-server
 script)
 
 
