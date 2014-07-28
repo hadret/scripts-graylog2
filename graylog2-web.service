@@ -1,0 +1,12 @@
+[Unit]
+Description=graylog2-web
+BindTo=network.target
+
+[Service]
+Type=simple
+User=root
+PIDFile=/opt/graylog2-web/RUNNING_PID
+ExecStart=/opt/graylog2-web/bin/graylog2-web-interface -Dhttp.address=127.0.0.1
+
+[Install]
+WantedBy=multi-user.target
