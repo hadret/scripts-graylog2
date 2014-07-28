@@ -36,6 +36,6 @@ Installation
 Authors
 ===
 
-Filip "Hadret" Chabik <hadret@gmail.com> @hadret
+Filip "Hadret" Chabik <hadret@gmail.com> / @hadret
 
 _(Remember to add yourself when pull requesting)._ 
